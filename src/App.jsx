@@ -7,7 +7,11 @@ function App() {
 
   const fetchQoute = async () => {
     try {
+<<<<<<< HEAD
       const res = await fetch("https://api.quotable.io/random")
+=======
+      const res = await fetch("http://api.quotable.io/random")
+>>>>>>> 263443e (fixed everything)
       const data = await res.json()
       setQuote(data)
     } catch (error) {
